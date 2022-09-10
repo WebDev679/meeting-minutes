@@ -1,31 +1,11 @@
-# Minutes of Meeting Maker
-![image](https://user-images.githubusercontent.com/68477362/202777104-1680342f-872b-4f82-81e0-0221178b6f43.png)
+## Meeting Minutes Generator 
 
-## How to run?
+This program will generate minutes for any meeting transcript 
 
-1. Clone the repository
-```
-git clone https://github.com/iamyajat/Minutes-of-Meeting-Maker.git
-```
-2. Install venv
-```
-pip install virtualenv
-```
-3. Create a virtual environment
-```
-virtualenv venv
-```
-4. Activate the virtual environment
-```
-source venv/bin/activate
-```
-5. Install the requirements
-```
-pip install -r requirements.txt
-```
-6. Download the model from [here](https://www.kaggle.com/code/iamyajat/meeting-transcript-summarization/data) and place it in the `assets/model` folder.
-7. Run the app
-```
-streamlit run main.py
-```
+## How to run 
 
+Once the requirements are installed, download the model from the notebook and place it in the `assets/model` folder.
+
+Then run 
+
+`streamlit run main.py`
